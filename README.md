@@ -15,6 +15,7 @@ Feature	Description
 ✅ Grid Optimization	Calculates energy savings
 🧮 Data Import	Load and process Excel/CSV
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________
 🛠 Tech Stack
 
 Python
@@ -28,8 +29,7 @@ NumPy
 Plotly
 
 OpenWeatherMap API
-
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔄 Workflow
 
 Data is loaded from Excel
@@ -43,7 +43,7 @@ Best energy source is recommended
 Battery charge/discharge logic calculated
 
 Visual charts displayed in dashboard
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📡 Weather API
@@ -55,11 +55,11 @@ Temperature
 Humidity
 
 Wind speed
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Using OpenWeather API
 
 🔑 Add your API key in app.py
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔮 Electricity Demand Prediction
 
 Uses rule-based logic based on:
@@ -71,7 +71,7 @@ Humidity
 Wind speed
 
 You can replace it with ML models if needed.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔌 Source Recommendation Logic
 Condition	Recommended Source
 Temperature > 28°C	Solar
@@ -85,7 +85,7 @@ Demand < Low threshold	Charge
 In between	Idle
 
 Battery system helps reduce grid stress during high-load periods.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📊 Visualizations
 
 Included charts:
@@ -96,12 +96,10 @@ Included charts:
 ✅ Heatmap
 ✅ 7-day forecast chart
 ✅ Current weather panels
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚡ Optimized Demand
 
 ⚙ The model uses predicted demand → compares with battery availability → computes optimized grid usage and energy savings.
-
-
 
 🔧 Installation
 1️⃣ Clone repository
@@ -113,23 +111,7 @@ pip install -r requirements.txt
 
 3️⃣ Run App
 streamlit run app.py
-
-📁 Dataset
-
-File: PROJECT_DATASET.xlsx
-
-Expected fields:
-
-datetime
-
-demand
-
-source
-
-weather (optional)
-
-Works with 2020 sample dataset.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✅ requirements.txt
 streamlit
 pandas
@@ -138,4 +120,3 @@ requests
 plotly
 openpyxl
 
-OpenPyXL
